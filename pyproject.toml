@@ -1,0 +1,14 @@
+[tool.poetry]
+
+name = "API with Python"
+version = "0.0.1"
+description = "Consume of API with Python"
+authors= ["Markos96"]
+
+[build-system]
+requires= ["poetry-core >= 1.1.0"]
+build-backend= "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "2.31.0"
