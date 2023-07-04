@@ -1,6 +1,6 @@
 import requests
 
-name = input("Enter one country: ")
+name = "Argentina"
 
 URL = f'https://restcountries.com/v3.1/name/{name}'
 
